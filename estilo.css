@@ -1,0 +1,56 @@
+/*Selector - propiedad - valor */
+.card {
+    padding: 20px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color:  hsl(0, 0%, 100%);
+    width: 25%;
+    text-align: center;
+    border-radius:5%;
+    margin:35%;
+}
+.container, h2{
+    padding: 10px 25px;
+    font-size:(paragraph) 15px;
+    background-color: hsl(0, 0%, 100%);     
+}
+p{
+    padding: 10px 25px;
+    font-size:(paragraph) 15px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(213, 5%, 66%);   
+}
+.imga{
+    width: 90%;
+    border-radius:5%; 
+}
+*{
+    background: hsl(212, 45%, 89%);
+}
+@media only screen and (max-width:426px ){
+    .card {
+
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color:  hsl(0, 0%, 100%);
+        width: 85%;
+        text-align: center;
+        border-radius:5%;
+        margin:4%;
+    }
+    .container, h2{
+        padding: 5px 5px;
+        font-size:(paragraph) 20px;
+        background-color: hsl(0, 0%, 100%);
+    }
+    p{
+        padding: 4px 1px;
+        color: hsl(213, 5%, 66%);
+        background-color: hsl(0, 0%, 100%);
+        font-weight: bold;
+        font-size: 15;
+    }
+    .imga{
+        width: 95%;
+        height: 90%;
+        border-radius:5%;
+    }
+}
